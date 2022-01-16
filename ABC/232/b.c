@@ -8,8 +8,8 @@ int main()
     int i = 0;
     int chk = 0;
     int chkprev = 0;
-    chk = s[0] - a[0];
-    chkprev = chk;
+    chk = 0;
+    chkprev =0;
     while (1)
     {
         if (s[i] == '\0')
@@ -17,6 +17,10 @@ int main()
             break;
         }
         chk = s[i] - a[i];
+      	if(i==0&&s[0]!=a[0]){
+        	printf("No");
+            return 0;
+        }
         if (chk == chkprev)
         {
         }
