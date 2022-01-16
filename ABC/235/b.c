@@ -17,6 +17,8 @@ int main()
         {
             ans = b;
             break;
+        }else{
+            break;
         }
         prev = b;
     }
