@@ -5,8 +5,8 @@ int main()
     scanf("%d", &i);
     int o=i%100;
     if(o==0){
-        printf("%d",i+100);
+        printf("%d",100);
     }else{
-        printf("%d",(100-o)+i);
+        printf("%d",(100-o));
     }
 }
