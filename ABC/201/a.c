@@ -21,7 +21,7 @@ int main(){
                 a=c;
                 c=tmp;
         }
-        if((b-a)==(c-b)){
+        if((b-a)==(c-b)||((c-a)/2)==(b-a)){
                 printf("Yes");
         }else{
                 printf("No");
