@@ -4,8 +4,8 @@ int main()
 {
     unsigned long N;
     unsigned long K;
-    scanf("%d", &N);
-    scanf("%d", &K);
+    scanf("%ld", &N);
+    scanf("%ld", &K);
     for (int i = 0; i < K; i++)
     {
         if (N % 200 == 0)
@@ -19,5 +19,5 @@ int main()
             continue;
         }
     }
-    printf("%d", N);
+    printf("%ld", N);
 }
