@@ -8,7 +8,7 @@ int main()
     int UP = b / c;
     int DOWN = a / c;
     int check;
-    for (int i = 0; i < (UP - DOWN); i++)
+    for (int i = 0; i <= (UP - DOWN); i++)
     {
         check = c * i;
         if (check >= a && check <= b)
@@ -16,6 +16,11 @@ int main()
             printf("%d", check);
             return 0;
         }
+    }
+    if (a == b && a == c)
+    {
+        printf("%d", a);
+        return 0;
     }
     printf("-1");
 }
