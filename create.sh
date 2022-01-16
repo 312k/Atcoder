@@ -8,7 +8,7 @@ mkdir ABC/$input
 
 touch ABC/$input/link.md
 
-echo https://atcoder.jp/contests/abc$input/ > ABC/$input/link.md
+echo https://atcoder.jp/contests/abc$input/ > ABC/$input/README.md
 
 echo "What file do you want to make?"
 echo "When to finish you type end"
