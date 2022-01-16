@@ -10,7 +10,7 @@ int main(){
   	scanf("%s",s3);
   	scanf("%s",T);
   	int i=0;
-	while(T[i]!='0'){
+	while(T[i]!='\0'){
     	if(T[i]=='1'){
           printf("%s",s1);
         }
@@ -22,4 +22,5 @@ int main(){
         }
       i++;
     }
+  printf("\n");
 }
