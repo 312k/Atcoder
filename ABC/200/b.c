@@ -2,8 +2,8 @@
 
 int main()
 {
-    unsigned  int N;
-    unsigned  int K;
+      int N;
+      int K;
     scanf("%d", &N);
     scanf("%d", &K);
     for (int i = 0; i < K; i++)
