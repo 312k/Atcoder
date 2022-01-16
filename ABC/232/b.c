@@ -2,8 +2,8 @@
  
 int main()
 {
-    char s[100001];
-    char a[100001];
+    char s[1000001];
+    char a[1000001];
     scanf("%s %s", s, a);
     int i = 0;
     int chk = 0;
