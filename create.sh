@@ -4,7 +4,6 @@ echo "How many times have ABC held?"
 read input
 mkdir ABC/$input
 echo https://atcoder.jp/contests/abc$input/ > ABC/$input/README.md
-cp template/Makefile ABC/$input/Makefile
 echo "What file do you want to make?"
 echo "When to finish you type end"
 while true
